@@ -1,26 +1,5 @@
 # Computer Graphics – Ray Tracing
 
-> **To get started:** Clone this repository and its submodule using
-> 
->     git clone --recursive http://github.com/alecjacobson/computer-graphics-ray-tracing.git
->
-> **Do not fork:** Clicking "Fork" will create a _public_ repository. If you'd like to use GitHub while you work on your assignment, then mirror this repo as a new _private_ repository: https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private
-
-## Background
-
-### Read Sections 4.5-4.9 of _Fundamentals of Computer Graphics (4th Edition)_.
-
-Many of the classes and functions of this assignment are borrowed or adapted
-from the previous [ray casting assignment](https://github.com/alecjacobson/computer-graphics-ray-casting).
-
-Unlike that assignment, this [ray
-tracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) will produce
-_approximately_ accurate renderings of scenes illuminated with light.
-Ultimately, the shading and lighting models here are _useful_ hacks. The basic
-[recursive](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)#Recursive_ray_tracing_algorithm)
-structure of the program is core to many methods for rendering with [global
-illumination](https://en.wikipedia.org/wiki/Global_illumination) effects (e.g.,
-shadows, reflections, etc.).
 
 ![Running `./raytracing ../data/sphere-and-plane.json` should produce this image.](images/sphere-and-plane.png)
 
